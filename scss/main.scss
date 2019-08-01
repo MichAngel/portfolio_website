@@ -127,7 +127,7 @@ img {
   &-b {
     .stats {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
     }
     
     li {
@@ -162,7 +162,7 @@ img {
       
       .process {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-gap: 1.5rem;
         text-align: center;
         // Process-step
@@ -378,7 +378,7 @@ img {
 #main-footer {
   background: $dark-color;
   color: white;
-  height: 5rem;
+  height: 8rem;
 
   .footer-content {
     display: flex;
