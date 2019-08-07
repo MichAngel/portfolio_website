@@ -330,19 +330,23 @@ img {
 
       .name-input {
         grid-area: name;
+        height: 1rem;
       }
       .subject-input {
         grid-area: subject;
+        height: 2rem;
       }
       .email-input {
         grid-area: email;
+        height: 2rem;
       }
       .phone-input {
         grid-area: phone;
+        height: 2rem;
       }
       .message-input {
         grid-area: message;
-        height: 5rem;
+        height: 7rem;
       }
 
       .text-input {
@@ -394,6 +398,7 @@ img {
       width: 20px;
       line-height: 20px;
       text-align: center;
+      color: #fff;
 
       &:hover {
         background: $main-color;

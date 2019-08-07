@@ -370,16 +370,20 @@ img {
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem; }
   #contact-a .text-fields .name-input {
-    grid-area: name; }
+    grid-area: name;
+    height: 1rem; }
   #contact-a .text-fields .subject-input {
-    grid-area: subject; }
+    grid-area: subject;
+    height: 2rem; }
   #contact-a .text-fields .email-input {
-    grid-area: email; }
+    grid-area: email;
+    height: 2rem; }
   #contact-a .text-fields .phone-input {
-    grid-area: phone; }
+    grid-area: phone;
+    height: 2rem; }
   #contact-a .text-fields .message-input {
     grid-area: message;
-    height: 5rem; }
+    height: 7rem; }
   #contact-a .text-fields .text-input {
     padding: 0.5rem 1rem; }
 
@@ -411,7 +415,8 @@ img {
       height: 20px;
       width: 20px;
       line-height: 20px;
-      text-align: center; }
+      text-align: center;
+      color: #fff; }
       #main-footer .footer-content .social .fab:hover {
         background: #2b37d0; }
 
